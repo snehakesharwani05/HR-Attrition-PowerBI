@@ -2,10 +2,6 @@
 
 > An interactive **Power BI HR analytics dashboard** designed to explore workforce composition, employee attrition, and the key factors associated with employee turnover.
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Measures-107C41?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-217346?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ---
 
@@ -280,11 +276,12 @@ A typical repository structure can be:
 ```text
 HR-Workforce-Attrition-Dashboard/
 │
-├── HR_Attrition_Dashboard.pbix
+├── PowerBI/
+|   └── HR_Attrition_Dashboard.pbix
 ├── README.md
 │
-├── data/
-│   └── EmployeeData.csv
+├── dataset/
+│   └── WA_Fn-UseC_-HR-Employee-Attrition.csv
 │
 └── screenshots/
     ├── executive-overview.png
@@ -293,26 +290,6 @@ HR-Workforce-Attrition-Dashboard/
 ```
 
 > Update the filenames/folders to match your actual GitHub repository structure.
-
----
-
-## 🚀 How to Run the Dashboard
-
-### Prerequisites
-
-Install:
-
-- **Microsoft Power BI Desktop**
-- Access to the project dataset, if the PBIX file requires an external data source.
-
-### Steps
-
-1. Clone or download this repository.
-2. Open the `.pbix` file in **Power BI Desktop**.
-3. If required, update the dataset/file path in **Power Query**.
-4. Refresh the data.
-5. Navigate through the three dashboard pages.
-6. Use the slicers and visuals to explore the data.
 
 ---
 
@@ -333,21 +310,6 @@ The current dashboard provides metrics such as:
 
 ---
 
-## 🔮 Future Improvements
-
-Potential enhancements include:
-
-- Employee-level drill-through pages.
-- Dedicated retention recommendations.
-- Time-based workforce trend analysis if historical HR data becomes available.
-- Machine learning-based attrition prediction.
-- Automated identification of high-risk employee segments.
-- Additional compensation and performance analysis.
-- Integration with live HR data sources.
-- Power BI Service deployment with scheduled refresh.
-- Automated HR alerts and reporting.
-
----
 
 ## 📚 Skills Demonstrated
 
@@ -364,27 +326,6 @@ This project demonstrates practical experience with:
 - Exploratory Data Analysis
 - HR Analytics
 - Business-Oriented Data Storytelling
-
----
-
-## 👩‍💻 Author
-
-**Sneha Kesharwani**
-
-B.Tech — Computer Science & Engineering
-
----
-
-## ⭐ Project Highlights
-
-- 📊 3-page interactive HR analytics dashboard
-- 👥 Workforce composition analysis
-- 📉 Employee attrition analysis
-- 🎯 Attrition driver analysis
-- 🔍 Power BI Key Influencers
-- 🎛️ Interactive slicers
-- 🧮 DAX-based HR KPIs
-- 💼 Business-focused insights
 
 ---
 
